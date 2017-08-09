@@ -1,0 +1,20 @@
+.headers {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-color: #cccccc;
+	font-size: 30px;
+}
+
+.headerCR {
+	color: white;
+	background-color: teal;
+}
+
+.headerAM {
+	color: teal;
+	background-color: white;
+}
+
+#profilePic {
+	height: 200px;
+	width: 200px;
+}
