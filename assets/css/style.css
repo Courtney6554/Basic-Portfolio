@@ -1,20 +1,144 @@
-.headers {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	border-color: #cccccc;
-	font-size: 30px;
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #efeee7;
 }
 
-.headerCR {
-	color: white;
-	background-color: teal;
+header {
+  background: #ffffff;
+  border-color: #cccccc;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.headerAM {
-	color: teal;
-	background-color: white;
+h1 {
+  padding: 20px 30px 20px 30px;
+  margin: 0px 750px 50px 50px;
+  width: 15%;
+  font-size: 26px;
+  color: white;
+  text-align: center;
+  background: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#profilePic {
-	height: 200px;
-	width: 200px;
+h2 {
+  padding: 20px 50px 10px 50px;
+  margin: ;
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #4aaaa5;
+  text-align: left;
+  background: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+h3 {
+  padding: 0px 0px 10px 0px;
+  margin: 10px 50px 0px 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #4aaaa5;
+  text-align: left;
+  background: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  width: 90%;
+  margin: 10px 10px 10px 50px;
+  background-color: #DCDCDC;
+  border-color: #DCDCDC;
+  align-items: center;
+
+}
+
+a {
+  color: #d21034;
+}
+
+.icon-image {
+  float: left;
+
+}
+/*Space images with padding?*/
+.icon-position {
+  margin: 20px;
+  padding: 50px;
+ 
+}
+
+.container {
+  width: 1024px;
+  margin: 10px 50px 10px 10px auto;
+}
+
+
+#my-bio,
+#connect-info,
+#bio-image {
+  float: left;
+
+}
+
+#my-bio {
+  width: 55%;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+
+}
+
+#connect-info {
+  margin: 0 auto;
+  width: 20%;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  margin-left: 50px;
+  padding: 20px 50px 75px 20px;
+  height: 75%;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 20px 40px 20px 50px;
+
+}
+
+#bio {
+  margin: 20px;
+  margin-left: 50px;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+#git-icon {
+  width: 50px;
+  height: 50px;
+
+}
+
+#link-icon {
+  width: 50px;
+  height: 50px;
+}
+
+#stack-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
